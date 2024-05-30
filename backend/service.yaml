@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-        - image: cmantena/senti:v7
+        - image: quay.io/ericbos1/senti:v7
           env:
             - name: apikey
               valueFrom:
