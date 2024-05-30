@@ -1,8 +1,8 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: chaitu-senti
-  namespace: chaitu-senti
+  name: sentiment-project
+  namespace: sentiment-project2
 spec:
   template:
     spec:
